@@ -1,4 +1,4 @@
-# Student Attendance and Performance Analyzer
+# Student Performance Analyzer
 
 An AI/ML project that explores student datasets, visualizes patterns, and compares machine learning models to analyze and predict student performance.
 
