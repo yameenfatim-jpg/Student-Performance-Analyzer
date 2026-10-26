@@ -1,0 +1,133 @@
+
+/* Student Attendance and Performance Analyzer */
+/* Pastel college-project theme */
+
+:root {
+    --pink: #e96a9b;
+    --pink-light: #fff0f6;
+    --purple: #a99be8;
+    --ink: #344563;
+    --paper: #fffafd;
+}
+
+.stApp {
+    background:
+        linear-gradient(135deg, #fff7fb 0%, #f8f5ff 55%, #fffafd 100%);
+    color: var(--ink);
+}
+
+/* Main content */
+.block-container {
+    max-width: 1200px;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #344563 !important;
+    letter-spacing: -0.4px;
+}
+
+h1 {
+    font-size: 2.6rem !important;
+    font-weight: 800 !important;
+}
+
+h2, h3 {
+    font-weight: 700 !important;
+}
+
+/* Cards and bordered sections */
+div[data-testid="stVerticalBlockBorderWrapper"] {
+    background: rgba(255, 255, 255, 0.78);
+    border: 1px solid #f4c9df;
+    border-radius: 20px;
+    padding: 14px;
+    box-shadow: 0 5px 18px rgba(205, 127, 166, 0.08);
+}
+
+/* Buttons */
+.stButton > button,
+.stDownloadButton > button {
+    background: linear-gradient(120deg, #ed6b9d, #d94d8b);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 0.65rem 1.2rem;
+    font-weight: 700;
+    transition: 0.2s ease;
+}
+
+.stButton > button:hover,
+.stDownloadButton > button:hover {
+    background: #c83f7c;
+    color: white;
+    border: none;
+    transform: translateY(-1px);
+}
+
+/* File uploader */
+div[data-testid="stFileUploader"] {
+    background: #fff8fc;
+    border: 2px dashed #e9a5c7;
+    border-radius: 16px;
+    padding: 16px;
+}
+
+/* Tabs */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 8px;
+    background: #fff4fa;
+    padding: 8px;
+    border-radius: 14px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    border-radius: 10px;
+    color: #52617d;
+    font-weight: 650;
+    padding: 10px 14px;
+}
+
+.stTabs [aria-selected="true"] {
+    background: #fbd7e7 !important;
+    color: #b72f70 !important;
+}
+
+/* Inputs */
+.stSelectbox div[data-baseweb="select"] > div,
+.stTextInput input,
+.stNumberInput input {
+    border-radius: 10px;
+    border-color: #e6cce0;
+    background: #fffafd;
+}
+
+/* Metrics */
+div[data-testid="stMetric"] {
+    background: #fff8fc;
+    border: 1px solid #f2d4e5;
+    border-radius: 15px;
+    padding: 14px;
+}
+
+/* Alerts */
+div[data-testid="stAlert"] {
+    border-radius: 13px;
+}
+
+/* Dataframes */
+div[data-testid="stDataFrame"] {
+    border: 1px solid #f1d7e6;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* Subtle footer */
+.project-footer {
+    text-align: center;
+    color: #78839b;
+    font-size: 0.9rem;
+    padding: 24px 0 8px;
+}

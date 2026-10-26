@@ -1,0 +1,24 @@
+@'
+__pycache__/
+*.pyc
+venv/
+.venv/
+.env
+.streamlit/secrets.toml
+
+# Generated charts
+actual_vs_predicted.png
+prediction_residuals.png
+random_forest_feature_importance.png
+
+# Generated reports
+candidate_prediction_targets.csv
+cross_validation_results.csv
+dataset_preview.csv
+missing_values_report.csv
+model_comparison_results.csv
+numerical_summary_report.csv
+prediction_error_analysis.csv
+random_forest_feature_importance.csv
+strong_correlations_report.csv
+'@ | Set-Content -Encoding utf8 .gitignore
