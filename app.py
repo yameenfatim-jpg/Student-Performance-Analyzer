@@ -74,7 +74,7 @@ st.markdown("""
         ✿ MY COLLEGE PROJECT · DATA + MACHINE LEARNING
     </div>
     <h1 style="margin: 10px 0; color: #344563;">
-        🎓 Student Attendance and<span
+        🎓 Student<span
         <span style="color: #d94d8b;"> Performance Analyzer</span>
     </h1>
     <p style="font-size: 17px; color: #52617d; margin-bottom: 0;">
