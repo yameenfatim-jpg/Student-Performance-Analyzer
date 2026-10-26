@@ -14,7 +14,7 @@ from pathlib import Path
 CSS_FILE = Path(__file__).parent / "style.css"
 
 st.set_page_config(
-    page_title="Student Attendance and Performance Analyzer",
+    page_title="Student Performance Analyzer",
     page_icon="🎓",
     layout="wide"
 )
